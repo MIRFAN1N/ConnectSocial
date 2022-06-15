@@ -147,6 +147,115 @@
     flex-grow: 1;
 }
 
+/* Profile */
+
+.page-navigation {
+    border-bottom: 1px solid #E2E5E6;
+    padding: 15px;
+}
+
+.page-navigation-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-profile-div-inner {
+    padding: 50px 0;
+    border-bottom: 1px solid #ebedee;
+}
+
+.page-navigation-ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.login-link {
+    width: 20%;
+    text-align: right;
+    font-weight: 500;
+    color: #000;
+}
+
+.page-navigation-li {
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.page-navigation {
+    border-bottom: 1px solid #E2E5E6;
+    padding: 15px 0;
+}
+
+.page-navigation-link {
+    color: rgb(0 0 0 / 60%);
+}
+
+.page-navigation-li.active .page-navigation-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.user-profile-info-inner {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-info-image img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.user-profile-info-text {
+    margin-left: 35px;
+}
+
+.user-profile-div-main {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-profile-info-action-top-text {
+    margin-bottom: 30px;
+}
+
+.user-profile-btn-large {
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.user-profile-btn-large.white {
+    color: #000;
+    background: #fff;
+}
+
+.user-profile-btn-large.black {
+    color: #fff;
+    background: #000;
+}
+
+.user-profile-about-inner {
+    padding: 35px 0;
+}
+
+.user-profile-about-text-p {
+    padding: 35px 0;
+}
+
+.user-profile-about-main {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Effects */
 
 .form-field-input:focus {
@@ -163,6 +272,11 @@
     border: 1px solid #000;
     background: #fff;
     color: #000;
+}
+
+.page-navigation-li:hover .page-navigation-link {
+    color: #000;
+    text-decoration: none;
 }
 
 
