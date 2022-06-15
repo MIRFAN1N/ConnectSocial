@@ -9,17 +9,13 @@
                             <form action="#">
                                 <div class="form-box text-center">
                                     <div class="form-title pb-3">
-                                        <h2>Create New Password</h2>
+                                        <h2>Email & Number Verified</h2>
                                     </div>
-                                    <div class="form-field mb-4">
-                                        <input type="password" class="form-field-input form-control" placeholder="Enter new password" required>
-                                    </div>
-                                    <div class="form-field mb-4">
-                                        <input type="password" class="form-field-input form-control" placeholder="Create new password" required>
+                                    <div class="form-sub-title">
+                                        <p class="mb-0">Email & Number Verified your phone number & email address have been verified successfully.</p>
                                     </div>
                                     <div class="form-action-button"> 
-                                        <button class="custom-black-btn mr-3">Reset Password</button>
-                                        <button class="custom-black-btn">Back</button>
+                                        <button class="custom-black-btn">Login</button>
                                     </div>
                                 </div>
                             </form>

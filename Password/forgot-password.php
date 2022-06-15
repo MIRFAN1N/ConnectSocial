@@ -1,5 +1,5 @@
-<?php include 'include/header.php'; ?>
-<?php include 'include/top-bar.php'; ?>
+<?php include '../include/header.php'; ?>
+<?php include '../include/top-bar.php'; ?>
     <div class="form-div">
         <div class="container">
             <div class="form-div-inner">
@@ -28,6 +28,6 @@
             </div>
         </div>
     </div>
-    <?php include 'include/popup.php'; ?>
+    <?php include '../include/popup.php'; ?>
 </body>
 </html>
