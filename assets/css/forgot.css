@@ -40,8 +40,10 @@
 .form-div-main-upper {
     display: flex;
     align-items: center;
+    height: calc(100vh - 120px);
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 100%;
 }
 
 .custom-black-btn {
