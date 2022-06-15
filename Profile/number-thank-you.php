@@ -15,7 +15,7 @@
                                         <p class="mb-3">Your Phone number has been updated!</p>
                                     </div>
                                     <div class="form-sub-title">
-                                        <p class="mb-3 small-text"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis deserunt soluta animi earum recusandae quaerat sed ipsum! Doloremque exercitationem corrupti sequi, incidunt quidem debitis numquam quasi alias minus consectetur.</i></p>
+                                        <p class="mb-3 small-text"><i>Your new phone number has successfully been linked to your account. For any queries, contact our support team.</i></p>
                                     </div>
                                     <div class="form-action-button"> 
                                         <button class="custom-black-btn mr-3">Back</button>

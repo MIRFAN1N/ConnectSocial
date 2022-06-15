@@ -9,10 +9,10 @@
                             <form action="#">
                                 <div class="form-box text-center">
                                     <div class="form-title pb-3">
-                                        <h2>Email & Number Verified</h2>
+                                        <h2>Email Verified</h2>
                                     </div>
                                     <div class="form-sub-title">
-                                        <p class="mb-0">Email & Number Verified your phone number & email address have been verified successfully.</p>
+                                        <p class="mb-0">Your email address has successfully been verified.</p>
                                     </div>
                                     <div class="form-action-button"> 
                                         <button class="custom-black-btn">Login</button>

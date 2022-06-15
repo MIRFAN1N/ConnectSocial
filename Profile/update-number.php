@@ -12,7 +12,7 @@
                                         <h2>Update Mobile Number</h2>
                                     </div>
                                     <div class="form-sub-title">
-                                        <p class="mb-3 small-text"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur et amet blanditiis nam ea sequi eligendi ullam, voluptatem sit eaque hic error ab corrupti, dignissimos, qui cupiditate? Ea, nulla dolorem!</i></p>
+                                        <p class="mb-3 small-text"><i>Please enter your new phone number in the below textbox to change your phone number.  You’ll receive a code for verification. Else, the phone number will remain unchanged.</i></p>
                                     </div>
                                     <div class="phone-number-field mb-3">
                                         <div class="flage-div">

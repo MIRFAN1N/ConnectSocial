@@ -15,7 +15,7 @@
                                         <p class="mb-3">Your Email has been updated!</p>
                                     </div>
                                     <div class="form-sub-title">
-                                        <p class="mb-3 small-text"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis deserunt soluta animi earum recusandae quaerat sed ipsum! Doloremque exercitationem corrupti sequi, incidunt quidem debitis numquam quasi alias minus consectetur.</i></p>
+                                        <p class="mb-3 small-text"><i>Hooray! You will now be using the updated email address while logging in to your account. Contact support team to learn more.</i></p>
                                     </div>
                                     <div class="form-action-button"> 
                                         <button class="custom-black-btn mr-3">Back</button>
