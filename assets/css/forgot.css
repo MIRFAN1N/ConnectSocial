@@ -20,6 +20,7 @@
     border: 1px solid #f0f0f0;
     border-radius: 8px;
     background: #fff;
+    margin: 60px 0;
 }
 
 .form-field-input {
@@ -44,7 +45,7 @@
 }
 
 .custom-black-btn {
-    padding: 10px 15px;
+    padding: 6px 15px;
     background: #000;
     border: 1px solid #000;
     color: #f0f0f0;
@@ -53,13 +54,95 @@
 }
 
 .form-div-inner {
-    height: calc(100vh - 120px);
+    min-height: calc(100vh - 120px);
 }
 
 .form-action-button {
     padding-top: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+/* Profile */
+
+.form-link {
+    color: #626262;
+    text-decoration: none;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+.form-field-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.single-field {
+    flex: 0 0 48%;
+    margin: 10px 0;
+}
+
+.phone-number-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flage-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 7px 19px #f0f0f0;
+    border-radius: 3px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    margin-right: 10px;
+}
+
+.flage-div img {
+    margin-right: 5px;
+    width: 17px;
+}
+
+.flage-div .country-code {
+    font-size: 13px;
+    color: #626262;
+}
+
+.upload-profile-image-div {
+    position: relative;
+}
+
+.upload-profile-image-div .camera-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 6px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload-profile-image-div {
+    position: relative;
+    display: inline-block;
+}
+
+.phone-number-field .input {
+    flex-grow: 1;
 }
 
 /* Effects */
@@ -67,6 +150,11 @@
 .form-field-input:focus {
     border-color: #000;
     box-shadow: 0px 7px 19px #f0f0f0;
+}
+
+.form-link:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 .custom-black-btn:hover {
@@ -82,4 +170,13 @@
     .form-div-main {
         padding: 50px 15px;
     }
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    .form-field-grid {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items : unset;
+    }
+}
