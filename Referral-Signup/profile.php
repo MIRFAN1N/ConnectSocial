@@ -105,7 +105,7 @@
             <div class="user-profile-about-inner">
                 <div class="user-profile-about-main row">
                     <div class="user-profile-about-text col-md-5">
-                        <h2 class="user-profile-about-title">
+                        <h2 class="user-profile-about-title text-center">
                             About Ambassador
                         </h2>
                         <div class="user-profile-about-text-p">
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                     <div class="user-profile-about-video col-md-6">
-                        <h2 class="user-profile-about-title">
+                        <h2 class="user-profile-about-title text-center">
                             About Connect Social
                         </h2>
                         <div class="user-profile-video-container">
