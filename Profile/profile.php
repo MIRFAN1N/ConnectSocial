@@ -7,6 +7,7 @@
     <title>Profile</title>
     <link rel="manifest" href="site.webmanifest">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
+    <link rel="stylesheet" href="../assets/css/all.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/forgot.css">
 </head>
@@ -15,6 +16,13 @@
     <div class="page-navigation">
         <div class="container">
         <!-- <div class="container-fluid"> -->
+            <div class="mobile-menu-btn">
+                <div class="mobile-menu-btn-outer">
+                    <div class="mobile-menu-btn-inner">
+                        <button><i class='fa-regular fa-bars'></i></button>
+                    </div>
+                </div>
+            </div>
             <div class="page-navigation-inner">
                 <ul class="page-navigation-ul">
                     <li class="page-navigation-li active">

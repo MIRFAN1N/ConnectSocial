@@ -46,7 +46,7 @@
 .form-div-main-upper {
     display: flex;
     align-items: center;
-    height: calc(100vh - 120px);
+    min-height: calc(100vh - 120px);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -333,11 +333,17 @@
 }
 
 
+/* Customization */
+
+.iti {
+    width: 100%;
+}
+
 /* Responsive */
 
-@media only screen and (max-width: 480px) {
-    .form-div-main {
-        padding: 50px 15px;
+@media only screen and (max-width: 1220px) {
+    .page-navigation-ul {
+        width: 80%;
     }
 }
 
@@ -349,3 +355,10 @@
         align-items : unset;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .form-div-main {
+        padding: 50px 15px;
+    }
+}
+

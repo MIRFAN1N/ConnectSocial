@@ -1,5 +1,6 @@
 <?php include '../include/header.php'; ?>
 <?php include '../include/top-bar.php'; ?>
+<link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
     <div class="form-div">
         <div class="container">
             <div class="form-div-inner">
@@ -30,11 +31,11 @@
                                         </div>
                                         <div class="single-field">
                                             <div class="phone-number-field">
-                                                <div class="flage-div">
+                                                <!-- <div class="flage-div">
                                                     <img src="../assets/images/icons/flage.png" alt=""> <span class="country-code">+1</span>
-                                                </div>
+                                                </div> -->
                                                 <div class="input">
-                                                    <input type="text" class="form-field-input form-control" placeholder='Mobile Number'>
+                                                    <input type="text" class="form-field-input form-control w-100" id="phone" placeholder='Mobile Number'>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,10 +94,15 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script>
         $('#choose-pic-trigger').click(function(){
             $("#choose-pic-input").trigger('click');
         });
+        var input = document.querySelector("#phone");
+window.intlTelInput(input, {
+  separateDialCode: true
+});
         </script>
     <?php include '../include/popup.php'; ?>
 </body>
