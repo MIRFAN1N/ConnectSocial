@@ -5,7 +5,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Profile</title>
-    <link rel="manifest" href="site.webmanifest">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="../assets/css/all.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -16,14 +15,16 @@
     <div class="page-navigation">
         <div class="container">
         <!-- <div class="container-fluid"> -->
-            <div class="mobile-menu-btn">
-                <div class="mobile-menu-btn-outer">
-                    <div class="mobile-menu-btn-inner">
-                        <button><i class='fa-regular fa-bars'></i></button>
+            <div class="page-navigation-inner">
+                <div class="mobile-menu-btn">
+                    <div class="mobile-menu-btn-outer">
+                        <div class="mobile-menu-btn-inner">
+                            <span class='mobile-menu-btn-image open-menu'>
+                                <img src="../assets/images/icons/menu.png" alt="">
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="page-navigation-inner">
                 <ul class="page-navigation-ul">
                     <li class="page-navigation-li active">
                         <a href="javascript:void(0)" class="page-navigation-link">About</a>
@@ -44,6 +45,25 @@
                 <div class="login-link">
                     <a href="javascript:void(0)" class="page-navigation-link">Login</a>
                 </div>
+            </div>
+            <div class="navigation-in-mobile">
+                <ul class="page-navigation-ul d-block">
+                    <li class="page-navigation-li active">
+                        <a href="javascript:void(0)" class="page-navigation-link">About</a>
+                    </li>
+                    <li class="page-navigation-li">
+                        <a href="javascript:void(0)" class="page-navigation-link">Consumer</a>
+                    </li>
+                    <li class="page-navigation-li">
+                        <a href="javascript:void(0)" class="page-navigation-link">Merchants</a>
+                    </li>
+                    <li class="page-navigation-li">
+                        <a href="javascript:void(0)" class="page-navigation-link">Our World</a>
+                    </li>
+                    <li class="page-navigation-li">
+                        <a href="javascript:void(0)" class="page-navigation-link">Treasure Island</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -128,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="user-profile-about-video col-md-5">
+                    <div class="user-profile-about-video col-md-6">
                         <h2 class="user-profile-about-title">
                             About Connect Social
                         </h2>
@@ -156,5 +176,23 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        var count = 0;
+        $(".mobile-menu-btn-image").click(function() {
+            if (count == 0) {
+                $('.navigation-in-mobile').slideDown(500);
+                count = 1;
+            } else {
+                $('.navigation-in-mobile').slideUp(500);
+                count = 0;
+            }
+        });
+        // $(".mobile-menu-btn-image.close-menu").click(function() {
+            
+        //     $(".mobile-menu-btn-image").removeClass('close-menu');
+        //     $(".mobile-menu-btn-image").addClass('open-menu');
+        // });
+    </script>
 </body>
 </html>
