@@ -78,11 +78,9 @@
                             About Ambassador
                         </h2>
                         <div class="user-profile-about-text-p">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id libero sit orci sed vel rutrum aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id libero sit orci sed vel rutrum aliquam.<br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id libero sit orci sed vel rutrum aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                                Id libero sit orci sed vel rutrum aliquam. Lorem ipsum dolor sit amet, <br>
-                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id libero sit orci sed vel rutrum aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id libero sit orci sed vel rutrum aliquam.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id libero sit orci sed vel rutrum aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+                            <p>Id libero sit orci sed vel rutrum aliquam. Lorem ipsum dolor sit amet,</p>
                         </div>
                         <div class="user-profile-social-info">
                             <div class="user-profile-social-info-title">
@@ -123,6 +121,25 @@
                         <h2 class="user-profile-about-title">
                             About Connect Social
                         </h2>
+                        <div class="user-profile-video-container">
+                            <div class="user-profile-video-container-inner">
+                                <div class="user-profile-video-container-image">
+                                    <img src="../assets/images/video/bg-01.png" alt="">
+                                    <div class="user-profile-video-controller">
+                                        <div class="user-profile-video-controller-inner">
+                                            <img src="../assets/images/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-profile-video-bottom-text">
+                            <div class="user-profile-video-bottom-text-inner">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, impedit aperiam! Nam amet eius, alias earum, praesentium magni ex accusamus pariatur aut perspiciatis, repellendus velit facere libero ipsam commodi quae.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, impedit aperiam! Nam amet eius, alias earum, praesentium magni ex accusamus pariatur aut perspiciatis, repellendus velit facere libero ipsam commodi quae.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, impedit aperiam! Nam amet eius, alias earum, praesentium magni ex accusamus pariatur aut perspiciatis, repellendus velit facere libero ipsam commodi quae.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

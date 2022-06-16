@@ -1,4 +1,10 @@
+
+* {
+    transition: all .3s ease-in;
+}
+
 /*  Forgot Password  */
+
 .action-div {
     background: #f0f0f0;
 }
@@ -256,6 +262,19 @@
     justify-content: space-between;
 }
 
+.user-profile-video-container {
+    padding: 35px 0;
+}
+
+.user-profile-video-container-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.user-profile-video-container-inner {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
 /* Effects */
 
 .form-field-input:focus {
@@ -277,6 +296,16 @@
 .page-navigation-li:hover .page-navigation-link {
     color: #000;
     text-decoration: none;
+}
+
+.user-profile-btn-large.white:hover {
+    color: #fff;
+    background: #000;
+}
+
+.user-profile-btn-large.black:hover {
+    color: #000;
+    background: #fff;
 }
 
 

@@ -22,7 +22,7 @@
                                     <div class="form-field-grid">
                                         <div class="single-field">
                                             <div class="form-field">
-                                                <input type="text" class="form-field-input form-control" placeholder='Email Address'>
+                                                <input type="text" class="form-field-input form-control" placeholder='Email Address' name="name">
                                             </div>
                                         </div>
                                         <div class="single-field">
