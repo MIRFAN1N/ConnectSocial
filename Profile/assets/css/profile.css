@@ -1,0 +1,201 @@
+/* All */
+
+* {
+    transition: all .3s ease-in;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Components */
+
+/* Page Style */
+/* Top-Bar */
+
+.site-logo-main img {
+    width: 300px;
+}
+
+.profile-top-bar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-user-options-ul {
+    display: flex;
+    align-items: center;
+}
+
+.profile-top-bar-wallete-inner {
+    display: flex;
+    align-items: center;
+}
+
+.profile-top-bar {
+    padding: 20px 0;
+}
+
+.profile-wallete-coin-image img {
+    width: 60px;
+}
+
+.profile-wallete-text {
+    margin-left: 20px;
+}
+
+.profile-wallete-top-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profile-wallete-balance {
+    font-size: 11px;
+}
+
+.profile-user-options-li {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-user-options-li.user-pic img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+/* Site Navigation */
+
+.profile-site-navigation {
+    background: #000;
+    padding: 10px 0;
+}
+
+.profile-site-navigation-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-site-navigation-li.line-deivder {
+    width: 1px;
+    height: 20px;
+    background: #fff;
+    display: block;
+}
+
+.profile-site-navigation-link {
+    color: #fff;
+    padding: 3px;
+    border-bottom: 1px solid;
+    border-color: #000;
+}
+
+.profile-site-navigation-link:hover {
+    text-decoration: none;
+    border-color: #fff;
+    color: #fff;
+}
+
+/* Profile Information */
+
+.profile-box-cover-image img {
+    width: 100%;
+}
+
+.profile-box-cover-image {
+    position: relative;
+    z-index: -1;
+}
+
+.profile-box-cover-image .edit-button {
+    position: absolute;
+    color: #fff;
+    top: 40px;
+    right: 100px;
+}
+
+.profile-box-cover-inner .edit-button-inner {
+    display: flex;
+}
+
+.profile-box-cover-image .icon {
+    margin-right: 10px;
+}
+
+.profile-box-user-info {
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    /* z-index: 111111; */
+}
+
+.profile-box-photo-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 17%);
+}
+
+.profile-box-cover-inner {
+    position: relative;
+    margin-top: -1px;
+}
+
+.profile-box-photo-image {
+    position: relative;
+}
+
+.edit-button-inner .icon {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+.profile-box-photo-image .edit-button {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+}
+
+.profile-box-info-name {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.profile-box-info-name {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+}
+
+/* Profile Navigation */
+
+/* Content Card */
+
+/* Effects */
+
+/* Customization */
+
+/* Responsive */
