@@ -136,7 +136,7 @@ ul {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -150px;
+    margin-top: -200px;
     /* z-index: 111111; */
 }
 
@@ -167,6 +167,7 @@ ul {
     cursor: pointer;
     background: #fff;
     color: #000;
+    font-size: 16px;
 }
 
 .profile-box-photo-image .edit-button {
@@ -188,13 +189,239 @@ ul {
     font-weight: 500;
     display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
+.profile-box-info-name-text {
+    margin-right: 10px;
+}
+
 
 /* Profile Navigation */
 
+.profile-navigation-inner {
+    padding: 10px 0;
+    border-bottom: 1px solid #DEDEDE;
+    margin-top: 30px;
+}
+
+.profile-navigation-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-navigation-li {
+    padding: 0 15px;
+}
+
+.profile-navigation-li.line-devider {
+    width: 1px;
+    height: 20px;
+    background: #dedede;
+    padding: 0;
+}
+
+.profile-navigation-link {
+    padding: 5px;
+    color: #A6A6A6;
+}
+
 /* Content Card */
 
+.profile-content {
+    margin: 30px 0;
+}
+
 /* Effects */
+
+.profile-navigation-link:hover {
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+.content-sides {
+    display: flex;
+}
+
+.content-side-01 {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.content-card {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 17%);
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.content-top-bar-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-top-bar-title .text {
+    margin-right: 10px;
+}
+
+.social-dropdown-main {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content-top-bar-title {
+    display: flex;
+    align-items: center;
+}
+
+.social-dropdown-main .icon, .social-dropdown-main .text {
+    margin-right: 5px;
+}
+
+.content-top-bar {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dedede;
+}
+
+.info-editor-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-editor-box-title {
+    display: flex;
+    align-items: center;
+}
+
+.info-editor-box-title-text {
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.info-editor-box-value {
+    display: flex;
+    align-items: center;
+}
+
+.set-privacy-dropdown-inner {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 17%);
+    padding: 10px 5px;
+    display: none;
+    top: 0;
+    z-index: 99999;
+    right: -1px;
+    padding-top: 2px;
+    border-radius: 3px;
+}
+
+.set-privacy-dropdown {
+    position: relative;
+}
+
+.set-privacy-dropdown-li {
+    padding: 5px;
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+    cursor: pointer;
+}
+
+.set-privacy-dropdown-li:last-child {
+    padding: 5px;
+    border-bottom: 0;
+}
+
+.info-editor-box-value-text {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.social-info-editor-box-li {
+    padding: 10px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.social-info-editor-box-li:last-child {
+    padding: 10px 0;
+    border-bottom: 0;
+}
+
+.content-card-content-inner p {
+    font-size: 12px;
+}
+
+.photo-galary-grid-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo-grid-col {
+    flex: 0 0 33%;
+    padding: 10px;
+}
+
+.photo-grid-col-inner img {
+    width: 100%;
+}
+
+.see-all {
+    border-top: 1px solid #dedede;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.see-all-inner a {
+    font-size: 12px;
+    font-style: italic;
+    color: #A6A6A6;
+}
+
+.see-all-inner a:hover {
+    color: #A6A6A6;
+    text-decoration: none;
+}
+
+.friend-grid-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend-grid-col {
+    flex: 0 0 25%;
+    padding: 10px;
+}
+
+.firend-grid-col-image img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.friend-grid-col-inner {
+    display: flex;
+    align-items: center;
+}
+
+.friend-grid-col-text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.friend-grid-col {
+    flex: 0 0 50%;
+    padding: 10px;
+}
 
 /* Customization */
 
