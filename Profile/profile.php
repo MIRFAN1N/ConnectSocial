@@ -13,7 +13,8 @@
 <body>
     <!-- Header -->
     <div class="page-navigation">
-        <div class="container-fluid">
+        <div class="container">
+        <!-- <div class="container-fluid"> -->
             <div class="page-navigation-inner">
                 <ul class="page-navigation-ul">
                     <li class="page-navigation-li active">
@@ -40,7 +41,8 @@
     </div>
     <!-- Profile -->
     <div class="user-profile-div">
-        <div class="container-fluid">
+        <div class="container">
+        <!-- <div class="container-fluid"> -->
             <div class="user-profile-div-inner">
                 <div class="user-profile-div-main row">
                     <div class="col-md-6">
@@ -70,7 +72,8 @@
         </div>
     </div>
     <div class="user-profile-about">
-        <div class="container-fluid">
+        <div class="container">
+        <!-- <div class="container-fluid"> -->
             <div class="user-profile-about-inner">
                 <div class="user-profile-about-main row">
                     <div class="user-profile-about-text col-md-5">

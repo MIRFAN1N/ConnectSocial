@@ -7,6 +7,7 @@
                     <div class="col-md-9">
                         <div class="form-div-main">
                             <form action="#">
+                                <input type="file" id="choose-pic-input" class='d-none'>
                                 <div class="form-box text-center">
                                     <div class="form-sub-title">
                                         <p class="mb-3"><b>Profile Picture</b></p>
@@ -15,7 +16,9 @@
                                         <div class="upload-profile-div-inner">
                                             <div class="upload-profile-image-div">
                                                 <img src="../assets/images/icons/user.png" alt="">
-                                                <div class="camera-icon"><img src="../assets/images/icons/camera.png" alt=""></div>
+                                                <div class="camera-icon" id="choose-pic-trigger">
+                                                    <img src="../assets/images/icons/camera.png" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -89,6 +92,12 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $('#choose-pic-trigger').click(function(){
+            $("#choose-pic-input").trigger('click');
+        });
+        </script>
     <?php include '../include/popup.php'; ?>
 </body>
 </html>
